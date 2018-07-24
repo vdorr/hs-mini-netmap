@@ -1,7 +1,7 @@
 {-# OPTIONS_GHC -fwarn-incomplete-patterns -fwarn-unused-binds -fwarn-unused-imports -fno-warn-tabs #-}
 {-# LANGUAGE CPP #-}
 
-module Network.MiniNetMap (
+module Network.MiniNetMap.Ping (
 	  PingSocket
 	, withPingNewSubnets
 	, pingAll
@@ -9,7 +9,6 @@ module Network.MiniNetMap (
 ) where
 
 import System.Linux.NetInfo
-import System.Linux.Ping
 
 import Network.Socket
 import Data.Word
