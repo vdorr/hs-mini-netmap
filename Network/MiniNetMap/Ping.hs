@@ -1,7 +1,7 @@
 {-# OPTIONS_GHC -fwarn-unused-binds -fwarn-unused-imports  -fwarn-incomplete-patterns -fno-warn-tabs #-}
 {-# LANGUAGE CPP, RecordWildCards  #-} 
 
-module Network.Ping where
+module Network.MiniNetMap.Ping where
 
 import Data.Word
 import qualified Data.ByteString as B

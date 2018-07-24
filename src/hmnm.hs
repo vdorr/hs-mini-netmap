@@ -5,7 +5,6 @@ import System.Environment (getArgs)
 
 import System.Linux.NetInfo
 import Network.MiniNetMap
-import Network.MiniNetMap.Ping
 
 --FIXME handle ctrl+c cleanly
 main :: IO ()
